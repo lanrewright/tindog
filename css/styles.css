@@ -1,0 +1,287 @@
+/* The code is displayed by section for readability */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+
+h1 h2 h3 h4 h5 h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.large-title {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3rem;
+  letter-spacing: 0.5;
+  font-weight: 500;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* to create spacing between nav-items */
+.navbar li {
+  padding: 0 10px;
+}
+
+/* TITLE SECTION */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* title text */
+.intro-text {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+/* responsive code */
+
+@media (max-width: 1045px) {
+  .intro-text {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }  /*using the title section id helps to align all items in that section it is easier that trying to align individual elements in the section*/
+  .intro-text {
+    font-size: 2.5rem;
+  }
+}
+
+
+/* Download Buttons */
+.btn {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.download-button {
+  margin-right: 20px;
+}
+
+/* @media (max-width: 1045px) {
+  .download-button {
+    margin-right: 20px;
+
+  } */
+
+
+
+
+/* Phone Image */
+
+/* .dog-phone {
+  position: relative;
+} */
+
+
+.phone-dog {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+
+}
+
+/* to adjust the image for bigger screens */
+@media (max-width: 1045px) and (min-width: 990px){
+  .phone-dog {
+    position: static;
+    margin-left: 100px;
+    /* transform: rotate(0deg); */
+
+  }
+}
+
+@media (max-width: 990px) {
+  .phone-dog {
+    position: static;
+    transform: rotate(0deg);
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    width: 50%;
+
+  }
+}
+
+/* FEATURES SECTION */
+
+#features {
+  background-color: white;
+  position: relative;
+}
+
+.row.feature {
+  padding: 7% 0;
+
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.feature-text {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* TESTIMONIALS SECTION  */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  color: white;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 30px;
+}
+
+#testimonials em {
+  color: white;
+}
+
+/* applied padding to only the carousel items to allow the buttons be better position away from the text */
+.text-only-carousel {
+  padding: 7% 15%;
+}
+
+/* PRESS SECTION */
+
+#press {
+  background-color: #ef8172;
+
+}
+
+#press img {
+  width: 12%;
+  padding-bottom: 6%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING SECTION */
+
+
+.pricing-header {
+  padding-bottom: 1.5%;
+  padding-top: 5%;
+
+}
+
+.pricing-text {
+  padding-bottom: 5%;
+}
+
+.container.pricing {
+  padding-bottom: 5%;
+}
+
+
+.card-header {
+  background-color: #ef8172;
+  color: white;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card-title {
+  color: #ef8172;
+  font-weight: 700;
+}
+
+
+.price-button {
+  font-weight: bold;
+}
+
+
+/* CTA SECTION */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15% 10%;
+
+}
+
+.cta-title {
+  color: white;
+}
+
+.cta-buttons {
+  margin-top: 7%;
+}
+
+
+/* FOOTER SECTION */
+
+#footer {
+  color: white;
+}
+.footer-icons {
+  color: black;
+  margin: 5% 5% 1.5%;
+  letter-spacing: 10px;
+}
+
+.icons {
+  color: black;
+}
+.icons:hover {
+  color: #ff4c68;
+}
+
+.footer-items {
+  padding: 7% 15% 10%;
+}
+
+.footer-items p {
+  color: grey;
+  font-weight: 500;
+  margin-top: 2%;
+}
